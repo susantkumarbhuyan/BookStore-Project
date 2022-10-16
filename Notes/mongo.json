@@ -1,0 +1,115 @@
+{
+    "name":"400 Days",
+    "price":150,
+    "pages":352,
+    "isbnNo": 1542094089,
+    "author": "Chetan Bhagat",
+    "language":"Hindi",
+    "category":"Thriller",
+    "description":"Welcome to 400 Days―a mystery and romance story like no other." 
+}
+
+{
+    "name":"One Arrange Murder",
+    "price":163,
+    "pages":312,
+    "isbnNo": 1542094090,
+    "author": "Chetan Bhagat",
+    "language":"English",
+    "category":"Story",
+    "description":"Keshav has set up an investigation." 
+}
+
+{
+    "name":"Half GirlFriend",
+    "price":143,
+    "pages":280,
+    "isbnNo": 1542094091,
+    "author": "Chetan Bhagat",
+    "language":"English",
+    "category":"Romantic",
+    "description":"Half Girlfriend is a story of Bihari boy Madhav" 
+}
+
+{
+        "name": "Five Point Someone",
+        "price": 147,
+        "pages": 284,
+        "isbnNo": 1542094092,
+        "author": "Chetan Bhagat",
+        "language": "English",
+        "category": "story",
+        "description": "Five Point Someone is a novel written by bestselling author Chetan Bhagat."
+}
+
+{
+    "name":"Revolution Twenty 20: Love. Corruption. Ambition",
+    "price":185,
+    "pages":296,
+    "isbnNo": 1542094093,
+    "author": "Chetan Bhagat",
+    "language":"English",
+    "category":"Political",
+    "description":"‘Lazy parents, bread-butter again,’ I grumbled," 
+}
+{
+    "name":"The Diary of a Young Girl",
+    "price":99,
+    "pages":328,
+    "isbnNo": 1542094094,
+    "author": "Anne Frank",
+    "language":"English",
+    "category":"Novel",
+    "description":"An Inspiration The Holocaust was one of the most horrendous and terrible eras in history." 
+}
+{
+    "name":"1984",
+    "price":79,
+    "pages":304,
+    "isbnNo": 1542094095,
+    "author": "George Orwell",
+    "language":"English",
+    "category":"Novel",
+    "description":" nineteen Eighty-Four is one" 
+}
+
+{
+    "name":"Nirmala",
+    "price":125,
+    "pages":160,
+    "isbnNo": 1542094096,
+    "author": "Munshi Prem Chand",
+    "language":"Hindi",
+    "category":"Novel",
+    "description":"यह पुस्तक एक युवा लड़की के दुख को दर्शाती है जिसे दहेज के कारण भुगतना पड़ता है।" 
+}
+{
+    "name":"Making India Awesome",
+    "price":99,
+    "pages":192,
+    "isbnNo": 1542094096,
+    "author": "Chetan Bhagat",
+    "language":"English",
+    "category":"POLITICS",
+    "description":"'Making India Awesome: New Essays and Columns’ by renowned Indian author Chetan Bhagat" 
+}
+{
+    "address":"Gosaninuagoan",
+    "city" : "Berhmapur",
+    "state" : "Odisha",
+    "pin": 760001,
+    "phoneNo" : 7847942869
+}
+
+{
+    "fullName" : "Rakesh Rajak",
+    "username" :"rakesh",
+    "email": "rakesh@gmail.com",
+    "roles": [ "usddwer"],
+    "password": "susant"
+}
+
+{
+    "username": "susant",
+    "password" : "susant"
+}

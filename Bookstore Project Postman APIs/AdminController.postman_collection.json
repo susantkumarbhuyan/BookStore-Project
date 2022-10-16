@@ -1,0 +1,181 @@
+{
+	"info": {
+		"_postman_id": "4ad9a028-00e2-447b-a7d8-3f0920551228",
+		"name": "AdminController",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20876475"
+	},
+	"item": [
+		{
+			"name": "Adding Product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Half GirlFriend\",\r\n    \"price\":143,\r\n    \"pages\":280,\r\n    \"isbnNo\": 1542094091,\r\n    \"author\": \"Chetan Bhagat\",\r\n    \"language\":\"English\",\r\n    \"category\":\"Romantic\",\r\n    \"description\":\"Half Girlfriend is a story of Bihari boy Madhav\" \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8089/admin/product/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"admin",
+						"product",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/admin/dashbord/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"admin",
+						"dashbord",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/admin/dashboard/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"admin",
+						"dashboard",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Product",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/admin/product/delete/139",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"admin",
+						"product",
+						"delete",
+						"139"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete SIngle Order",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/admin/dashbord/orders/delete/102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"admin",
+						"dashbord",
+						"orders",
+						"delete",
+						"102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/admin/dashboard/user/delete/kishan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"admin",
+						"dashboard",
+						"user",
+						"delete",
+						"kishan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Products",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"name\": \"400 Days\",\r\n        \"price\": 150,\r\n        \"pages\": 352,\r\n        \"isbnNo\": 1542094096,    \r\n        \"author\": \"Chetan Bhagat\",\r\n        \"language\": \"English\",\r\n        \"category\": \"Thriller\",\r\n        \"description\": \"Welcome to 400 Days―a mystery and romance story like no other.\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8089/admin/product/update/130 ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"admin",
+						"product",
+						"update",
+						"130 "
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

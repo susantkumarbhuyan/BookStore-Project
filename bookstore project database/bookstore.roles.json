@@ -1,0 +1,2 @@
+{"_id":{"$oid":"629d92d70f8847d9f26814b9"},"id":"1","name":"ROLE_ADMIN"}
+{"_id":{"$oid":"629d92d70f8847d9f26814ba"},"id":"2","name":"ROLE_USER"}

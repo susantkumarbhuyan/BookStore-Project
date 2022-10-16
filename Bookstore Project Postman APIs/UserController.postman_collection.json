@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "a7d2fae4-8f65-48db-ab11-fe21bb2141c1",
+		"name": "UserController",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20876475"
+	},
+	"item": [
+		{
+			"name": "Shoe User Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/user/dashboard/details ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"user",
+						"dashboard",
+						"details "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Details",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"fullName\": \"Rakesh Kumar\",\r\n    \"username\": \"rakesh\",\r\n    \"email\": \"rakesh@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8089/user/dashboard/details/update ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"user",
+						"dashboard",
+						"details",
+						"update "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Orders",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/user/dashbord/orders/delete/143 ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"user",
+						"dashbord",
+						"orders",
+						"delete",
+						"143 "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show Orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8089/user/dashbord/orders ",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8089",
+					"path": [
+						"user",
+						"dashbord",
+						"orders "
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
